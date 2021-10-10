@@ -1,0 +1,58 @@
+//绝对路径配置引用图片~@
+.zh-login {
+    width: 100vw;
+    height: 100vh;
+    background: url("~@/assets/images/loginBg.jpg") no-repeat center;
+    background-size: cover;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 65px;
+        padding: 0 20px;
+
+        .header-log {
+            width: 320px;
+            height: 80%;
+            border: 1px solid red;
+        }
+
+        .header-right {
+            color: #022847;
+
+            .header-right-notice {
+                display: inline-block;
+                margin-right: 130px;
+            }
+
+            .header-right-data {
+                display: inline-block;
+            }
+        }
+    }
+
+    .content {
+        .content-tabs.ant-tabs-card {
+
+            >.ant-tabs-nav .ant-tabs-tab,
+            >div>.ant-tabs-nav .ant-tabs-tab {
+                background: none;
+                color: #00377b;
+            }
+
+            >.ant-tabs-nav .ant-tabs-tab-active,
+            >div>.ant-tabs-nav .ant-tabs-tab-active {
+                background: #00377b;
+                border-radius: 8px 0 0 0;
+
+                .ant-tabs-tab-btn {
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+
+
+}
