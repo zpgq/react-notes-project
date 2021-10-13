@@ -2,7 +2,7 @@
 import { Fragment } from "react"
 import { Link } from "react-router-dom"
 import { Menu } from "antd"
-import menuConfig from "@/config/menuConfig"
+import menuConfig from "@/config/menu-config"
 
 //递归menu函数
 const randItem = (menuData) => {

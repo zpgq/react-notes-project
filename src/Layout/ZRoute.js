@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router-dom"
-import routerConfig from "@/config/routerConfig"
+import routerConfig from "@/config/router-config"
 function ZhRoute() {
     return (
         <Switch>

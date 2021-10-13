@@ -7,8 +7,6 @@ import UseCallback from "@/modules/reacthooks/UseCallback"
 import UseContext from "@/modules/reacthooks/UseContext"
 import UseReducer from "@/modules/reacthooks/UseReducer"
 import UseRef from "@/modules/reacthooks/UseRef"
-//路由
-import Routes from "@/modules/ReactRoutes"
 //antd
 import Btn from "@/modules/antd/Btn"
 import Card from "@/modules/antd/Card"
@@ -62,14 +60,6 @@ const reactHooks = [
         exact: true,
         component: UseRef
     },
-]
-//路由
-const reactRoutes = [
-    {
-        path: "/react/routes",
-        // exact: true,
-        component: Routes
-    }
 ]
 //antd组件
 const antd = [
@@ -142,7 +132,6 @@ const routerConfig = [
         component: Test,
     },
     ...reactHooks,
-    ...reactRoutes,
     ...antd,
     ...example,
     ...htnlcss,
