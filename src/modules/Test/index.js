@@ -1,4 +1,7 @@
-import Test from "./Test"
-import "./style.less"
+function Test() {
+    return (
+         <div>111</div>
+    )
+}
 
 export default Test
