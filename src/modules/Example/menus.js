@@ -6,6 +6,10 @@ const caseMenus = {
             key: "/case/table/del",
             menuName: "表单删除功能"
         },
+        {
+            key: "/case/select-ref",
+            menuName: "下拉案例"
+        },
     ]
 }
 

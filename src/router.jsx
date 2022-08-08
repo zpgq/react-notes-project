@@ -1,14 +1,18 @@
-import React from 'react'
-import { Switch, BrowserRouter as Router, Route } from 'react-router-dom';
+import { Switch, BrowserRouter, Route } from 'react-router-dom';
 import Layout from "./Layout"
+import store from './redux/store'
+import { Provider } from 'react-redux'
 
 const router = () => {
     return (
-        <Router>
+        <BrowserRouter>
             <Switch>
-                <Route path="/" component={Layout} />
+                {/* 1. 传递store */}
+                <Provider store={store}>
+                    <Route path="/" component={Layout} />
+                </Provider>
             </Switch>
-        </Router>
+        </BrowserRouter>
     )
 }
     

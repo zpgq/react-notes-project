@@ -1,12 +1,17 @@
 //example案例
-import TableDel from "@/modules/example/TableDel"
-
+import TableDel from "./TableDel"
+import SelectRef from './SelectRef'
 //案例
 const example = [
     {
         path: "/case/table/del",
         exact: true,
         component: TableDel,
+    },
+    {
+        path: "/case/select-ref",
+        exact: true,
+        component: SelectRef,
     }
 ]
 

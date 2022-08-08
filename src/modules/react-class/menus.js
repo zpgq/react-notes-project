@@ -8,7 +8,11 @@ const reactClassMenus = {
         },
         {
             key: '/react/class/ref',
-            menuName: 'ref测试'
+            menuName: 'ref用例'
+        },
+        {
+            key: '/react/class/context',
+            menuName: 'context用例'
         },
     ]
 }

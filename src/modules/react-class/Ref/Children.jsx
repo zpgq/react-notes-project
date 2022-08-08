@@ -5,7 +5,7 @@ export default class Children extends Component {
   render() {
     return (
       <Form>
-        表单
+        
       </Form>
     )
   }

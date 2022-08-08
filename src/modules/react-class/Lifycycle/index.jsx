@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Lifycycle extends Component {
   constructor(props) {
     super(props)
-    console.log('constructor')
+    console.log('constructor', props)
   }
   componentDidMount() {
     console.log('componentDidMount')
