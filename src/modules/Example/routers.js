@@ -1,6 +1,7 @@
 //example案例
 import TableDel from "./TableDel"
 import SelectRef from './SelectRef'
+import Redux from './Redux'
 //案例
 const example = [
     {
@@ -12,6 +13,11 @@ const example = [
         path: "/case/select-ref",
         exact: true,
         component: SelectRef,
+    },
+    {
+        path: "/case/redux",
+        exact: true,
+        component: Redux,
     }
 ]
 

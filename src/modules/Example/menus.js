@@ -10,6 +10,10 @@ const caseMenus = {
             key: "/case/select-ref",
             menuName: "下拉案例"
         },
+        {
+            key: "/case/redux",
+            menuName: "redux案例"
+        },
     ]
 }
 

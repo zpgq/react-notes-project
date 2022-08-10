@@ -1,27 +1,20 @@
 import React, { Component } from 'react'
+import store from '../../redux/store/index'
+import { addCount } from '../../redux/action'
 
 export default class Test extends Component {
-  constructor(props) {
-    super(props)
-    this.fetchData()
-  }
-  state = {
-    data: []
-  }
+  state = store.getState()
 
-  fetchData() {
-    setTimeout(() => {
-      this.setState({
-        data: [1111, 2222]
-      })
-    })
+  onClick = () => {
+    console.log('a')
+    store.dispatch(addCount())
   }
 
   render() {
-    console.log(this.state)
     return (
       <>
-      11
+        <h1>{ this.state }</h1>
+        <button onClick={this.onClick}>按钮</button>
       </>
     )
   }

@@ -5,7 +5,7 @@ import { MyContext } from './index'
 Children.contextType = MyContext;
 
 export default class Children extends Component {
-    componentDidMount() {
+    componentDidMount() {   
         let value = this.context;
         /* 在组件挂载完成后，使用 MyContext 组件的值来执行一些有副作用的操作 */
     }
