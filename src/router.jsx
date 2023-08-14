@@ -14,5 +14,5 @@ const router = () => {
         </BrowserRouter>
     )
 }
-
+console.log('测试1')
 export default router();
