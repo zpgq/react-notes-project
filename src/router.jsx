@@ -16,3 +16,4 @@ const router = () => {
 }
 
 export default router();
+console.log('测试2')
