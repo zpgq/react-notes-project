@@ -1,7 +1,7 @@
 // class类组件
-import Lifycycle from './Lifycycle/index.jsx'
-import Ref from './Ref/index.jsx'
-import Context from './Context/index.jsx'
+import Lifycycle from './lifycycle/index.jsx'
+import Ref from './ref/index.jsx'
+import Context from './context/index.jsx'
 
 const routers = [
     {

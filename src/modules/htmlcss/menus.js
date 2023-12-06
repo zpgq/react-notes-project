@@ -3,7 +3,7 @@ const htmlcssMenus = {
     menuName: "html和css问题",
     children: [
         {
-            key: "/htmlcss/css/childselector",
+            key: "/htmlcss/css/child-selector",
             menuName: "子选择器问题"
         }
     ]

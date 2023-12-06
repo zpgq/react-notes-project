@@ -1,7 +1,7 @@
 //example案例
-import TableDel from "./TableDel"
-import SelectRef from './SelectRef'
-import Redux from './Redux'
+import TableDel from "./table-del"
+import SelectRef from './select-ref'
+import Redux from './redux'
 //案例
 const example = [
     {

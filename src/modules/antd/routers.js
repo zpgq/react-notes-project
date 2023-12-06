@@ -1,19 +1,19 @@
 // antd
-import Btn from "@/modules/antd/Btn"
-import Card from "@/modules/antd/Card"
+import MyButton from "@/modules/antd/my-button"
+import MyCard from "@/modules/antd/my-card"
 
 //antd组件
 const antd = [
     {
 
-        path: "/antd/btn",
+        path: "/antd/my-button",
         exact: true,
-        component: Btn,
+        component: MyButton,
     },
     {
-        path: "/antd/card",
+        path: "/antd/my-card",
         exact: true,
-        component: Card,
+        component: MyCard,
     }
 ]
 

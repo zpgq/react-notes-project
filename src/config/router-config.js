@@ -1,7 +1,7 @@
-import Test from "@/modules/Test"
+import Test from "@/modules/tests/index.jsx"
 
 import reacthooks from '@/modules/reacthooks/routers'
-import reactClass from '../modules/react-class/routers'
+import reactClass from '@/modules/react-class/routers'
 import antd from "@/modules/antd/routers"
 import example from '@/modules/example/routers'
 import htmlcss from '@/modules/htmlcss/routers'

@@ -3,11 +3,11 @@ const antdMenus = {
     menuName: "antd组件",
     children: [
         {
-            key: "/antd/btn",
+            key: "/antd/my-button",
             menuName: "btn组件"
         },
         {
-            key: "/antd/card",
+            key: "/antd/my-card",
             menuName: "card组件"
         }
     ]

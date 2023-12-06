@@ -1,12 +1,11 @@
 // import React from 'react';
-import ReactDOM from 'react-dom';
-import router from "./router"
-import './index.css';
-import './global.less'
+import ReactDOM from "react-dom";
+import App from "./app";
+import "./index.css";
+import "./global.less";
 
 function render() {
-  ReactDOM.render(router, document.getElementById("z-root"));
+  ReactDOM.render(<App />, document.getElementById("root"));
 }
 
-render()
-
+render();
