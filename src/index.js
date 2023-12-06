@@ -4,8 +4,4 @@ import App from "./app";
 import "./index.css";
 import "./global.less";
 
-function render() {
-  ReactDOM.render(<App />, document.getElementById("root"));
-}
-
-render();
+ReactDOM.render(<App />, document.getElementById("app"));
