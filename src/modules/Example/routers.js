@@ -2,6 +2,7 @@
 import TableDel from "./table-del"
 import SelectRef from './select-ref'
 import Redux from './redux'
+import CountDown from './countdown'
 //案例
 const example = [
     {
@@ -18,6 +19,11 @@ const example = [
         path: "/case/redux",
         exact: true,
         component: Redux,
+    },
+    {
+        path: "/case/countdown",
+        exact: true,
+        component: CountDown,
     }
 ]
 

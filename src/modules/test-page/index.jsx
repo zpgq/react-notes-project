@@ -1,8 +1,6 @@
 const Test = () => {
   return (
-    <div>
-      <h1>regengx</h1>
-    </div>
+    <div>11</div>
   )
 }
 

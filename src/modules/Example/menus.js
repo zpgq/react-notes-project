@@ -14,6 +14,10 @@ const caseMenus = {
             key: "/case/redux",
             menuName: "redux案例"
         },
+        {
+            key: "/case/countdown",
+            menuName: "倒计时案例"
+        },
     ]
 }
 
