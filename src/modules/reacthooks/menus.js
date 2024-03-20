@@ -29,6 +29,10 @@ const reacthooksMenus = {
         {
             key: "/react/hooks/use/ref",
             menuName: "useRef的使用"
+        },
+        {
+            key: "/react/hooks/use/state",
+            menuName: "useState的使用"
         }
     ]
 }
