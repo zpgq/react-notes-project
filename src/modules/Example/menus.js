@@ -18,6 +18,10 @@ const caseMenus = {
             key: "/case/countdown",
             menuName: "倒计时案例"
         },
+        {
+            key: "/case/form-item",
+            menuName: "form.item传递props给子组件奥秘"
+        },
     ]
 }
 
