@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
-import menuConfig from "@/config/menu-config";
+import menuConfig from "../../config/menu-config";
 
 //递归menu函数
 const renderItem = (menuData) => {
@@ -26,7 +26,9 @@ function UserMnu() {
   //兼容undefined 使用|| []
   return (
     <Fragment>
-      <Menu mode="horizontal">{renderItem(menuConfig)}</Menu>
+      <Menu mode="horizontal" defaultSelectedKeys={["/"]}>
+        {renderItem(menuConfig)}
+      </Menu>
     </Fragment>
   );
 }
