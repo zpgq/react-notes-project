@@ -1,13 +1,12 @@
 // antd
-import MyButton from "@/pages/antd/my-button"
-import MyCard from "@/pages/antd/my-card"
-import MyForm from "@/pages/antd/my-form"
-import MyTable from "@/pages/antd/my-table"
+import MyButton from "../antd/my-button"
+import MyCard from "../antd/my-card"
+import MyForm from "../antd/my-form"
+import MyTable from "../antd/my-table"
 
 //antd组件
 const antd = [
     {
-
         path: "/antd/my-button",
         exact: true,
         component: MyButton,

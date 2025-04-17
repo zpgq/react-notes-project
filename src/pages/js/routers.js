@@ -1,7 +1,7 @@
 // js问题
-import Func from "@/pages/js/func"
-import Events from "@/pages/js/events"
-import Prototype from "@/pages/js/prototype"
+import Func from "../js/func"
+import Events from "../js/events"
+import Prototype from "../js/prototype"
 
 //js问题
 const js = [

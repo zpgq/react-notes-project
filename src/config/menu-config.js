@@ -1,11 +1,9 @@
-import reacthooks from '../modules/reacthooks/menus'
-import reactClass from '../modules/react-class/menus'
-import antd from '../modules/antd/menus'
-import example from '../modules/example/menus'
-import htmlcss from '../modules/htmlcss/menus'
-import js from '../modules/js/menus'
-import page from '../modules/page/menus'
-
+import reacthooks from '../pages/reacthooks/menus'
+import reactClass from '../pages/react-class/menus'
+import antd from '../pages/antd/menus'
+import example from '../pages/example/menus'
+import htmlcss from '../pages/htmlcss/menus'
+import js from '../pages/js/menus'
 
 const menuConfig = [
     {
@@ -19,7 +17,6 @@ const menuConfig = [
     example,
     htmlcss,
     js,
-    page,
 ]
 
 export default menuConfig
