@@ -1,12 +1,12 @@
 // reactHooks应用
-import FaAndSon from "@/modules/reacthooks/fa-and-son"
-import UseEffect from "@/modules/reacthooks/use-effect"
-import UseMemo from "@/modules/reacthooks/use-memo"
-import UseCallback from "@/modules/reacthooks/use-callback"
-import UseContext from "@/modules/reacthooks/use-context"
-import UseReducer from "@/modules/reacthooks/use-reducer"
-import UseRef from "@/modules/reacthooks/use-ref"
-import UseState from "@/modules/reacthooks/use-state"
+import FaAndSon from "@/pages/reacthooks/fa-and-son"
+import UseEffect from "@/pages/reacthooks/use-effect"
+import UseMemo from "@/pages/reacthooks/use-memo"
+import UseCallback from "@/pages/reacthooks/use-callback"
+import UseContext from "@/pages/reacthooks/use-context"
+import UseReducer from "@/pages/reacthooks/use-reducer"
+import UseRef from "@/pages/reacthooks/use-ref"
+import UseState from "@/pages/reacthooks/use-state"
 
 //reactHooks应用
 const reacthooks = [

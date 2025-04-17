@@ -1,8 +1,8 @@
 // antd
-import MyButton from "@/modules/antd/my-button"
-import MyCard from "@/modules/antd/my-card"
-import MyForm from "@/modules/antd/my-form"
-import MyTable from "@/modules/antd/my-table"
+import MyButton from "@/pages/antd/my-button"
+import MyCard from "@/pages/antd/my-card"
+import MyForm from "@/pages/antd/my-form"
+import MyTable from "@/pages/antd/my-table"
 
 //antd组件
 const antd = [

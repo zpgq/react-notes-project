@@ -1,5 +1,5 @@
 //htmlcss问题
-import ChildSelector from "@/modules/htmlcss/child-selector"
+import ChildSelector from "@/pages/htmlcss/child-selector"
 
 //htmlcss问题
 const htmlcss = [

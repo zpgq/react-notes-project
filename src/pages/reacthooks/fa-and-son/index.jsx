@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Input } from "antd"
-import Son from "./Son"
+import Son from "./son"
 
 //父->子  父元素传递变量给子元素, 子元素接收
 //子->父  父元素传递方法给子元素, 子元素接收并调用传递过来的方法

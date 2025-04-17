@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react"
-import ChildComponent from "./ChildComponent"
+import ChildComponent from "./child-component"
 /**
  * ##useMemo
  * 概念：用于优化性能减少重新渲染次数, 当依赖(第二参数)发生变化时才重新渲染, 侧重的是属性值

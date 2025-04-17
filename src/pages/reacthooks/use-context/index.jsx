@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import ChildComponent from "./ChildComponent";
+import ChildComponent from "./child-component";
 export const CountContext = createContext();
 
 function UseContext() {
